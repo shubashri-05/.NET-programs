@@ -1,0 +1,7 @@
+protected void btnCalculate_Click(object sender, EventArgs e)
+{
+    int num1 = Convert.ToInt32(txtNum1.Text);
+    int num2 = Convert.ToInt32(txtNum2.Text);
+    int sum = num1 + num2;
+    lblResult.Text = "Sum: " + sum;
+}
