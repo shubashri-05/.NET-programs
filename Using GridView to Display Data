@@ -1,0 +1,2 @@
+GridView1.DataSource = cmd.ExecuteReader();
+GridView1.DataBind();
