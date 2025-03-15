@@ -1,0 +1,12 @@
+protected void btnValidate_Click(object sender, EventArgs e)
+{
+    string email = txtEmail.Text;
+    if (Regex.IsMatch(email, @"^[^\s@]+@[^\s@]+\.[^\s@]+$"))
+    {
+        lblMessage.Text = "Valid Email";
+    }
+    else
+    {
+        lblMessage.Text = "Invalid Email";
+    }
+}
