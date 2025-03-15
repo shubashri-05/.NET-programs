@@ -1,0 +1,4 @@
+Response.ContentType = "application/octet-stream";
+Response.AppendHeader("Content-Disposition", "attachment; filename=file.txt");
+Response.WriteFile(Server.MapPath("~/Uploads/file.txt"));
+Response.End();
