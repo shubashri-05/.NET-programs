@@ -1,0 +1,9 @@
+try
+{
+    SqlCommand cmd = new SqlCommand("SELECT * FROM Users", con);
+    SqlDataReader reader = cmd.ExecuteReader();
+}
+catch (Exception ex)
+{
+    lblMessage.Text = ex.Message;
+}
