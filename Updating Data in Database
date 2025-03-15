@@ -1,0 +1,5 @@
+string query = "UPDATE Users SET Password=@password WHERE Username=@username";
+SqlCommand cmd = new SqlCommand(query, con);
+cmd.Parameters.AddWithValue("@username", txtUsername.Text);
+cmd.Parameters.AddWithValue("@password", txtPassword.Text);
+cmd.ExecuteNonQuery();
