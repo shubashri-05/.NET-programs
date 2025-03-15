@@ -1,0 +1,4 @@
+SqlConnection con = new SqlConnection("your_connection_string");
+con.Open();
+Response.Write("Connected Successfully");
+con.Close();
