@@ -1,0 +1,5 @@
+Response.Clear();
+Response.AddHeader("content-disposition", "attachment;filename=Data.xls");
+Response.ContentType = "application/vnd.ms-excel";
+Response.Write(GridView1.DataSource);
+Response.End();
