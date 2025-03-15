@@ -1,0 +1,2 @@
+ListView1.DataSource = cmd.ExecuteReader();
+ListView1.DataBind();
