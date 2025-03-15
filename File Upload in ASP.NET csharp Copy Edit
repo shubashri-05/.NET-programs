@@ -1,0 +1,8 @@
+protected void btnUpload_Click(object sender, EventArgs e)
+{
+    if(FileUpload1.HasFile)
+    {
+        FileUpload1.SaveAs(Server.MapPath("~/Uploads/") + FileUpload1.FileName);
+        lblMessage.Text = "File Uploaded Successfully";
+    }
+}
