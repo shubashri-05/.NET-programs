@@ -1,0 +1,2 @@
+HubConnection connection = new HubConnectionBuilder().WithUrl("/chatHub").Build();
+connection.On<string>("ReceiveMessage", message => { Console.WriteLine(message); });
