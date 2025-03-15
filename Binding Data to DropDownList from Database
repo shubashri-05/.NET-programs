@@ -1,0 +1,4 @@
+DropDownList1.DataSource = cmd.ExecuteReader();
+DropDownList1.DataTextField = "CategoryName";
+DropDownList1.DataValueField = "CategoryID";
+DropDownList1.DataBind();
