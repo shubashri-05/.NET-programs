@@ -1,0 +1,2 @@
+var token = new JwtSecurityTokenHandler().WriteToken(new JwtSecurityToken());
+Response.Write("JWT Token: " + token);
