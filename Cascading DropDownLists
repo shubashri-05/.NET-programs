@@ -1,0 +1,6 @@
+protected void ddlCountry_SelectedIndexChanged(object sender, EventArgs e)
+{
+    ddlState.Items.Clear();
+    if (ddlCountry.SelectedValue == "India")
+        ddlState.Items.Add("Tamil Nadu");
+}
