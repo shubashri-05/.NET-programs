@@ -1,0 +1,4 @@
+protected void Page_Error(object sender, EventArgs e)
+{
+    Response.Redirect("Error.aspx");
+}
