@@ -1,0 +1,8 @@
+public class HelloController : ControllerBase
+{
+    [HttpGet]
+    public string Get()
+    {
+        return "Hello, API!";
+    }
+}
