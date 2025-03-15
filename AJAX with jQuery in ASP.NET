@@ -1,0 +1,7 @@
+$.ajax({
+    url: "Home/GetData",
+    type: "GET",
+    success: function(data) {
+        $("#result").text(data);
+    }
+});
