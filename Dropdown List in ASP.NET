@@ -1,0 +1,9 @@
+protected void Page_Load(object sender, EventArgs e)
+{
+    if(!IsPostBack)
+    {
+        DropDownList1.Items.Add("C#");
+        DropDownList1.Items.Add("Java");
+        DropDownList1.Items.Add("Python");
+    }
+}
