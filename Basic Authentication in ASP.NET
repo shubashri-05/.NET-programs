@@ -1,0 +1,8 @@
+if (Request.Headers["Authorization"] == "Basic dXNlcjpwYXNzd29yZA==")
+{
+    Response.Write("Authenticated");
+}
+else
+{
+    Response.StatusCode = 401;
+}
