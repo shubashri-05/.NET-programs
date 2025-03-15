@@ -1,0 +1,3 @@
+GridView1.AllowPaging = true;
+GridView1.PageSize = 10;
+GridView1.DataBind();
