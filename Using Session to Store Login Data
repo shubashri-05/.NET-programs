@@ -1,0 +1,2 @@
+Session["User"] = txtUsername.Text;
+Response.Redirect("Dashboard.aspx");
