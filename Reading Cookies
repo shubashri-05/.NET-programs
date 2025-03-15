@@ -1,0 +1,4 @@
+if (Request.Cookies["User"] != null)
+{
+    lblMessage.Text = "Welcome, " + Request.Cookies["User"].Value;
+}
