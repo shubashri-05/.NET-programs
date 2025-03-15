@@ -1,0 +1,11 @@
+protected void btnLogin_Click(object sender, EventArgs e)
+{
+    if(txtUsername.Text == "admin" && txtPassword.Text == "1234")
+    {
+        lblMessage.Text = "Login Successful!";
+    }
+    else
+    {
+        lblMessage.Text = "Invalid Credentials!";
+    }
+}
