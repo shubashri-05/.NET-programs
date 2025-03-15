@@ -1,0 +1,8 @@
+try
+{
+    int x = Convert.ToInt32("invalid");
+}
+catch (Exception ex)
+{
+    lblMessage.Text = "Error: " + ex.Message;
+}
