@@ -1,0 +1,4 @@
+if(Session["Username"] != null)
+{
+    lblMessage.Text = "Welcome, " + Session["Username"].ToString();
+}
