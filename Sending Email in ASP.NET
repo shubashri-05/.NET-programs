@@ -1,0 +1,6 @@
+MailMessage mail = new MailMessage();
+mail.To.Add("receiver@example.com");
+mail.Subject = "Test Email";
+mail.Body = "Hello from ASP.NET";
+SmtpClient smtp = new SmtpClient("smtp.example.com");
+smtp.Send(mail);
