@@ -1,0 +1,2 @@
+ViewState["Counter"] = 5;
+Response.Write(ViewState["Counter"]);
