@@ -1,0 +1,6 @@
+DataTable dt = new DataTable();
+dt.Columns.Add("ID");
+dt.Columns.Add("Name");
+dt.Rows.Add(1, "John");
+GridView1.DataSource = dt;
+GridView1.DataBind();
